@@ -1,0 +1,30 @@
+{
+  "name": "prism-color-forge",
+  "version": "1.0.0",
+  "description": "Color converter, WCAG contrast checker, 50–950 shade scale generator and harmony explorer.",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "color",
+    "color-palette",
+    "wcag",
+    "accessibility",
+    "tailwindcss",
+    "design-tools",
+    "css",
+    "vanilla-js",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-color-forge.git"
+  },
+  "homepage": "https://krishyaa06.github.io/prism-color-forge/",
+  "engines": {
+    "node": ">=18.17"
+  }
+}

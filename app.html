@@ -1,0 +1,30 @@
+    <section class="grid forge">
+      <div class="card pick">
+        <div class="swatch" id="swatch"><span id="swName"></span></div>
+        <div class="row pick-row">
+          <input type="color" id="picker" aria-label="Pick color" />
+          <input id="color" class="code" spellcheck="false" aria-label="Color value" placeholder="#00d2ff, rgb(0 210 255) or hsl(191 100% 50%)" />
+          <button class="btn" id="rand" title="Random (Space)">Random</button>
+        </div>
+        <div class="fmts" id="fmts"></div>
+      </div>
+      <div class="card">
+        <div class="card-title"><h2>Contrast check</h2><span class="pill" id="ratio"></span></div>
+        <div class="row bottom"><label class="field grow">Text color<input id="fg" class="code" value="#07080f" /></label><button class="btn small" id="swap">Swap</button></div>
+        <div class="preview" id="preview"><b>Build. Create. Compete.</b><span>The quick brown fox jumps over the lazy dog.</span></div>
+        <div class="row wcag" id="wcag"></div>
+      </div>
+    </section>
+    <section class="card mt">
+      <div class="card-title"><h2>Shade scale</h2>
+        <div class="row"><input id="sname" class="code w140" value="brand" aria-label="Scale name" />
+          <div class="tabs" id="expTabs"><button class="on" data-v="css">CSS</button><button data-v="tailwind">Tailwind</button><button data-v="scss">SCSS</button><button data-v="json">JSON</button></div>
+          <button class="btn small" id="copyScale">Copy</button></div></div>
+      <div class="scale" id="scale"></div>
+      <pre class="out exp" id="exp"></pre>
+    </section>
+    <section class="card mt">
+      <div class="card-title"><h2>Harmonies</h2><div class="tabs" id="harmTabs"><button class="on" data-v="complementary">Complementary</button><button data-v="analogous">Analogous</button><button data-v="triadic">Triadic</button><button data-v="split">Split</button><button data-v="tetradic">Tetradic</button><button data-v="mono">Mono</button></div></div>
+      <div class="harm" id="harm"></div>
+      <p class="muted small">Click any swatch to copy its hex. Press <kbd>Space</kbd> for a random color.</p>
+    </section>
